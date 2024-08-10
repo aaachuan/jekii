@@ -1,9 +1,9 @@
-package com.aaachuan;
+package com.aaachuan.config;
 
 public class HttpServerConfig {
     private String host;
     private int port;
-    HttpServerConfig(String host, int port) {
+    public HttpServerConfig(String host, int port) {
         this.host = host;
         this.port = port;
     }
